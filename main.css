@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #bdcbf5;
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 40px;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  background: #dc143c;
+  max-height: 50px;
+  z-index: 9;
+}
+
+.nav-link, .navbar-brand {
+  font-family: Lucida Console;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffff00;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.description {
+  left: 50%;
+  top: 45%;
+  position: absolute;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.description p {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.features .btn, .description button {
+  font-family: Times New Roman;
+  border: 1px solid #fff;
+  background: #dc143c;
+  border-radius: 0;
+  color: white;
+}
+
+.features .btn:hover, .description button:hover {
+  font-family: Times New Roman;
+  border: 1px solid black;
+  background: #eb2d53;
+  color: #000;
+}
+
+.features .btn {
+  font-size: 1.3rem;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  height: 175px;
+}
+
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+
+.form-group :focus {
+  background-color: yellow;
+}
